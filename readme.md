@@ -2,6 +2,12 @@
 
 This extension allows sending selected text to ChatGPT via a context menu, displaying an animated popup with the answer, and automatically copying the answer to the clipboard.
 
+<div style="display: flex;">
+<img src="coverU.jpg" alt="illustration picture" style="width: 47.5%; height: auto;"/>
+<img src="coverD.jpg" alt="illustration picture" style="width: 47.5%; height: auto;"/>
+</div>
+
+
 ## Features
 
 - **Context Menu Integration**: When text is selected and you right-click, the option "Search with GPT" appears and sends the text to the OpenAI API.

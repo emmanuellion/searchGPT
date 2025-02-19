@@ -27,7 +27,7 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
 			chrome.storage.sync.get({
 				apiKey: '',
 				maxTokens: 150,
-				contextPrompt: "Contexte : Je veux que m'explique à quoi correspond ce mot ou cette phrase ou bien réponds à cette question. Je ne veux pas que tu fasses de mises en forme du style markdown, fais des phrases courtes en moins de 150 token de l'api openai, réponds en français. Sujet : ",
+				contextPrompt: "Contexte : Je veux que tu m'expliques à quoi correspond ce mot ou cette phrase ou bien réponds à cette question. Je ne veux pas que tu fasses de mises en forme du style markdown, fais des phrases courtes en moins de 150 token de l'api openai, réponds en français. Sujet : ",
 				model: "gpt-3.5-turbo"
 			}, async (items) => {
 				const apiKey = items.apiKey;
